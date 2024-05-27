@@ -39,10 +39,6 @@
 * python -m venv venv
 * source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 * 
-* Install the required packages:
-* 
-* pip install -r requirements.txt
-* 
 * Create a .env file in the root directory with your database credentials:
 * 
 * DB_HOST=localhost
