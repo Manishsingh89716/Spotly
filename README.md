@@ -84,8 +84,8 @@
 * 
 * Spotly/
 * ├── app.py
-* ├── templates/
 * ├── images/
+* ├── templates/
 * │   ├── login.html
 * │   ├── register.html
 * │   ├── reservation.html
