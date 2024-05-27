@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Spotly:- An online reservation system</h1>
+        <h1>Welcome</h1>
+        <a href="{{ url_for('reservation') }}">Make a Reservation</a><br>
+        <a href="{{ url_for('cancellation') }}">Cancel a Reservation</a><br>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </div>
+</body>
+</html>

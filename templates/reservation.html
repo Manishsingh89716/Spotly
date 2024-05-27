@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>Reservation</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='scripts.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Reservation</h1>
+        <form method="post">
+            Train Number: <input type="text" name="train_number" required><br>
+            Train Name: <input type="text" name="train_name" required><br>
+            Class Type: <input type="text" name="class_type" required><br>
+            Date of Journey: <input type="date" name="date_of_journey" required><br>
+            From: <input type="text" name="from_place" required><br>
+            To: <input type="text" name="to_place" required><br>
+            <input type="submit" value="Reserve">
+        </form>
+    </div>
+</body>
+</html>
